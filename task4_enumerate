@@ -1,0 +1,6 @@
+my_list = [2, 3, 5, 9, 3]
+
+new_list = list(filter(lambda x: x[0] % 2 == 0, enumerate(my_list)))
+res_sum = sum([k for l, k in new_list])
+
+print(res_sum)
